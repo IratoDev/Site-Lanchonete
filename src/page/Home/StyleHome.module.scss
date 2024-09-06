@@ -1,0 +1,636 @@
+Main{
+
+#SectionHome{
+content: " ";
+display: table;
+width: 100%;
+max-width: none;
+justify-content: center;
+align-content: center;
+
+padding-top: 12em;
+padding-bottom: 6em;
+
+background: url("../../assets/image/background-burgers-home-top.jpg")no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+
+.ConteinerTextHome{
+
+display: block;
+padding: 0 20px;
+padding-bottom: 5em;
+
+.BoxText1{
+letter-spacing: 0;
+background: #FF0000;
+color: #fff;
+display: inline-block;
+padding: 5px 10px;
+font-style: normal !important;
+margin-bottom: 0.4em;
+
+font-family: var(--fontTitle);
+font-size: 1em;
+font-weight: 800;
+color: #FFF;
+
+}
+
+.BoxText2{
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+background-repeat: no-repeat;
+
+h1{
+font-size: 4em;
+font-family: var(--fontTitle);
+padding-bottom: 0.15em;
+line-height: 1;
+color: #FFF;
+}
+
+}
+
+
+.spaceText{
+
+padding-bottom: 1em;
+}
+
+.StyleLik{
+
+padding: 1.1em 1.4em;
+background-color: #FF0000;
+border: 2px solid #FF0000;
+
+cursor: pointer;
+
+transition: all 500ms ease;
+margin-top: 1.2em;
+outline: none;
+
+font-family: var(--fontTitle);
+font-size: 0.9em;
+color: #fff;
+line-height: 1;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+
+}
+
+}
+
+#SectionOpcoes{
+
+background-color: #FF0000;
+padding-top: 3em;
+padding-bottom: 1em;
+
+
+.ConteinerOpcoes{
+
+display: flex;
+
+font-family: var(--fontTitle);
+padding-left: 30px;
+padding-right: 30px;
+margin: auto;
+
+.OpcaoItem{
+
+padding: 0 20px;
+
+text-align: center;
+
+img{
+max-width: 100%;
+height: auto;
+}
+
+h2{
+
+font-family: var(--fontTitle);
+font-size: 1.2em;
+font-weight: bold;
+color: #FFF;
+
+}
+
+p{
+margin-bottom: 0.65em;
+font-family: var(--fontTitle);
+font-size: 0.9em;
+color: #FFF;
+}
+
+}
+
+
+}
+    
+}
+
+#SectionCatalogo{
+display: block;
+border: 3em solid #f6f8fa;
+padding-top: 6em;
+padding-bottom: 3em;
+background-color: #FFF;
+
+.ConteinerCatalogo{
+display: flex;
+flex-direction: column;
+gap: 2.5em;
+
+align-items: center;
+width: 100%;
+max-width: none;
+
+margin: 0 -40px;
+padding: 0 40px;
+
+
+.ConteinerTitle{
+display: block;
+margin: 0 -20px;
+
+text-align: center;
+
+font-family: var(--fontTitle);
+
+span{
+letter-spacing: 0;
+font-weight: 800;
+background: #FF0000;
+color: #fff;
+display: inline-block;
+padding: 0 10px;
+font-style: normal !important;
+margin-bottom: .4em;
+}
+
+h1{
+font-size: 3em;
+padding-bottom: .4em;
+}
+
+p{
+font-size: 1.1em;
+margin-bottom: .5em;
+opacity: .6;
+clear: both;
+}
+
+}
+
+.ConteinerProduto{
+
+display: block;
+margin: 0 -40px;
+
+.fileiraItem{
+display: flex;
+padding: 0 40px;
+
+}
+
+.ItemCatalogo{
+
+width: 33.33333333%;
+height: auto;
+text-align: center;
+font-family: var(--fontTitle);
+
+
+img{
+width: 70%;
+height: auto;
+}
+
+
+h2{
+font-size: 1.2em;
+font-weight: bold;
+padding-bottom: 0.2em;
+}
+
+p{
+margin-bottom: 0.65em;
+font-size: 0.9em;
+opacity: 0.8;
+}
+
+}
+
+}
+
+.ButtonMenu{
+background-color: transparent;
+border: 2px solid #FF0000;
+color: #FF0000;
+
+transition: all 500ms ease;
+font-family: var(--fontTitle);
+margin-top: .2em;
+padding: 1.2em 2.4em;
+margin-left: 0.6em;
+margin-right: 0.6em;
+
+text-decoration: none;
+}
+
+}
+
+}
+
+#SectionNovidades{
+
+color: #fff;
+background-color: #232323;
+
+.ConteinerNovidades{
+
+display: block;
+
+.FileiraNovidade{
+
+display: flex;
+align-items: stretch;
+border-bottom: 6px solid #fff;
+
+.Novidades{
+
+border-left: 6px solid white;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 0 40px;
+
+
+.BoxTextNovidades{
+
+width: 100%;
+text-align: left;
+
+font-family: var(--fontTitle);
+padding-top: 6em;
+padding-bottom: 3em;
+
+span{
+letter-spacing: 0;
+font-weight: 800;
+background: #FF0000;
+color: #fff;
+display: inline-block;
+padding: 0 10px;
+font-style: normal !important;
+margin-bottom: 0.4em;
+}
+
+h2{
+font-size: 3em;
+font-weight: bold;
+line-height: 1;
+padding-bottom: 0.4em;
+}
+
+p{
+font-size: 1.1em;
+margin-bottom: 0.5em;
+
+
+}
+
+.ButtonNovidade{
+border: 2px solid #fff;
+background-color: transparent;
+color: #fff;
+
+transition: all 500ms ease;
+margin-top: 0.2em;
+padding: 0.5em 1.4em;
+}
+
+}
+
+}
+
+.Novidade1{
+background-image:url("../../assets/image/cell-background-burger-left-1.jpg");
+}
+.Novidade2{
+background-image:url("../../assets/image/cell-background-burger-left-2.jpg");
+}
+.Novidade3{
+background-image:url("../../assets/image/cell-background-burger-left-3.jpg");
+}
+.Novidade4{
+background-image:url("../../assets/image/cell-background-burger-right-1.jpg");
+}
+
+.Novidade5{
+background-image:url("../../assets/image/cell-background-burger-right-2.jpg");
+}
+.Novidade6{
+background-image:url("../../assets/image/cell-background-burger-right-3.jpg");
+}
+
+}
+
+}
+
+}
+
+#Carrosel{
+
+padding-top: 6em;
+padding-bottom: 6em;
+
+#ConteinerCarrosel{
+
+display: flex;
+position: relative;
+overflow: hidden;
+max-width: 100%;
+
+padding-left: 30px;
+padding-right: 30px;
+opacity: 1 !important;
+
+button{
+
+cursor: pointer;
+position: absolute;
+top: 50%;
+border: none;
+background: transparent;
+z-index: 5;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: -60px;
+
+svg{
+width:64px;
+height: 64px;
+fill:#262626 ;
+}
+
+}
+
+.ButtonCarroselLeft{
+left: 0;
+}
+
+.ButtonCarroselRight{
+right: 0;
+}
+
+#ConteinerSlides{
+
+display: flex;
+min-width: 100%;
+transition: transform 0.5s ease-in-out;
+
+.Slides{
+
+margin: 0 auto;
+min-width: 100%;
+height: auto;
+padding: 0 auto;
+
+.ConteinerSlide{
+
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 3em 20px;
+max-width: 100%;
+border: 1px solid red;
+
+.ConteinerImgCarrosel{
+
+width: 100%;
+padding: 0 40px;
+
+img{
+max-width:100%;
+height: auto;
+}
+}
+
+.ConteinerTextCarrosel{
+
+
+padding: 0 20px;
+text-align: left;
+width: 100%;
+font-family: var(--fontTitle);
+
+.BoxtextCarrosel{
+
+display: block;
+clear: both;
+
+span{
+letter-spacing: 0;
+font-weight: 800;
+background: #FF0000;
+color: #fff;
+display: inline-block;
+padding: 0 10px;
+font-style: normal !important;
+margin-bottom: 0.4em;
+}
+
+h1{
+    
+font-weight: bold;
+font-size: 3em;
+line-height: 1.2;
+padding-bottom: 0.4em;
+}
+
+p{
+font-size: 1.1em;
+margin-bottom: .5em;
+opacity: 0.6;
+clear: both;
+}
+
+.LinkCarrosel{
+
+background-color: transparent;
+border: 2px solid #FF0000;
+color: #FF0000;
+margin-right: 0.6em;
+
+font-size: 0.9em;
+font-weight: 400;
+padding: 0.5em 1.4em;
+
+transition: all 500ms ease;
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+#SectionEndereco{
+color: #fff;
+background-color: #232323;
+
+.conteinerEndereco{
+display: flex;
+align-items: center;  
+
+.BoxEndereco{
+
+width: 100%;
+
+iframe{
+width: 100%;
+}
+
+.BoxTextEndereco{
+
+padding: 0 20px;
+font-family: var(--fontTitle);
+text-align: left;
+
+span{
+letter-spacing: 0;
+font-weight: 800;
+background: #FF0000;
+color: #fff;
+display: inline-block;
+padding: 0 10px;
+font-size: 0.8em;
+font-style: normal !important;
+margin-bottom: 0.4em;
+}
+
+h1{
+font-size: 2.25em;
+padding-bottom: 0.25em;
+font-weight: bold;
+}
+
+p{
+font-size: 0.9em;
+opacity: 0.8;
+color: #fff;
+}
+
+.ElementosEndereco{
+display: flex;
+flex-direction: row;
+padding-top: 1em;
+padding-bottom: 0.5em;
+    
+svg{
+fill: #FF0000;
+margin-right: 2px;
+width: 64px;
+height: auto;
+padding: 0 2px;
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+#DownloadCardapio{
+
+display: flex;
+align-items: center;
+color: #fff;
+background-color: #FF0000;
+
+padding: 0 40px;
+font-family: var(--fontTitle);
+font-weight: 400;
+
+.ConteinerDownload{
+
+width: 100%;
+padding-top: 3em;
+padding-bottom: 1em;
+text-align: right;
+
+h1{
+font-size: 2.25em;
+padding-bottom: 0.25em;
+}
+
+.CardapioLink{
+border: 2px solid #fff;
+background-color: transparent;
+color: #fff;
+font-size: 0.9em;
+padding: 1.2em 2.4em;
+cursor: pointer;
+}
+
+}
+
+}
+
+}
+
+Footer{
+
+font-family: var(--fontTitle);
+opacity: 0.8;
+color: #333;
+padding: 0 40px;
+padding-top: 2em;
+line-height: 1.8;
+
+.FooterDireitos{
+
+padding-bottom: 2em;
+font-size: 0.9em;
+
+}
+
+.ConteinerFooter{
+
+display: flex;
+gap: 1em;
+margin: 0 -20px;
+padding: 0 20px;
+padding-bottom: 2em;
+width: 50%;
+text-align: right;
+
+.LinkFooter{
+    cursor: pointer;
+    color: #333;
+}
+
+}
+
+}

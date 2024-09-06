@@ -1,0 +1,47 @@
+
+
+header{
+background-color: transparent;
+position: absolute;
+z-index: 100;
+top: 0;
+
+
+#conteinerNavBar{
+display: flex;
+flex-direction: row;
+padding-right: 30px;
+padding-left:30px;
+width: 100%;
+max-width: none;
+margin: auto;
+
+font-family: var(--fontTitle);
+
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+unicode-bidi: isolate;
+padding-left: 50px;
+line-height: 1.8;
+
+.ButtonNavBar{
+
+font-size: 16px;
+color: #fff;
+font-weight: 400;
+line-height: 100px;
+
+padding: 1em 1em;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+
+}
+
+}
+
+}

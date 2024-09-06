@@ -1,0 +1,222 @@
+Main #Historia {
+  padding-bottom: 3em;
+  padding-top: 6em;
+  width: 100%;
+}
+Main #Historia #ConteinerHistoria {
+  max-width: none;
+  padding: 0 30px;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria {
+  display: flex;
+  margin: 0 -20px;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionText {
+  display: block;
+  padding: 0 20px;
+  text-align: left;
+  width: 50%;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText {
+  font-family: var(--fontTitle);
+  color: #000;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText span {
+  letter-spacing: 0;
+  font-weight: 800;
+  background: #FF0000;
+  color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  font-style: normal !important;
+  margin-bottom: 0.4em;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText h1 {
+  font-size: 2.4em;
+  line-height: 1;
+  font-weight: bold;
+  padding-bottom: 0.4em;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText p {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  opacity: 0.8;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionImagem {
+  display: block;
+  padding: 0 20px;
+  width: 50%;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem {
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  line-height: 0;
+  position: relative;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem .BoxImagem {
+  padding: 0 10px;
+  margin: 0 -20px;
+}
+Main #Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem .BoxImagem img {
+  width: 100%;
+  height: auto;
+}
+Main #Qualidades {
+  padding-top: 3em;
+  width: 100%;
+}
+Main #Qualidades #ConteinerQualidades {
+  max-width: none;
+  padding: 0 30px;
+}
+Main #Qualidades #ConteinerQualidades .BoxQualidades {
+  display: flex;
+  margin: 0 -20px;
+}
+Main #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade {
+  position: relative;
+  width: 100%;
+}
+Main #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText {
+  display: block;
+  margin-left: 84px;
+  font-family: var(--fontTitle);
+  color: #262626;
+}
+Main #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 0.2em;
+}
+Main #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText p {
+  margin-bottom: 0.65em;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+Main #Diferenciais {
+  padding-bottom: 6em;
+  padding-top: 6em;
+  width: 100%;
+}
+Main #Diferenciais #ConteinerDiferenciais {
+  max-width: none;
+  padding: 0 30px;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais {
+  display: block;
+  margin: 0 -20px;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial {
+  width: 100%;
+  padding: 0 20px;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial {
+  padding: 0 10px;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial {
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+  padding: 0 10px;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxText {
+  font-family: var(--fontTitle);
+  color: #262626;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxText span {
+  letter-spacing: 0;
+  font-weight: 800;
+  background: #FF0000;
+  color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  font-style: normal !important;
+  margin-bottom: 0.4em;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxText h1 {
+  font-weight: bold;
+  font-size: 3em;
+  padding-bottom: 0.4em;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxText p {
+  font-size: 1.1em;
+  opacity: 0.8;
+  margin-bottom: 0.5em;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxImagem {
+  margin: 0 auto;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxImagem .ConteinerImagem {
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  line-height: 0;
+  position: relative;
+  margin: 0 auto;
+}
+Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxImagem .ConteinerImagem img {
+  width: 100%;
+  height: auto;
+}
+Main #Chef {
+  border: 3em solid #f6f8fa;
+  width: 100%;
+}
+Main #Chef #ConteinerChef {
+  max-width: none;
+  padding: 0 30px;
+}
+Main #Chef #ConteinerChef #BoxChef {
+  display: flex;
+  align-items: stretch;
+  margin: 0 -20px;
+}
+Main #Chef #ConteinerChef #BoxChef .ConteinerText {
+  padding: 0 20px;
+  width: 50%;
+}
+Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText {
+  text-align: left;
+  font-family: var(--fontTitle);
+  color: #262626;
+}
+Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText span {
+  letter-spacing: 0;
+  font-weight: 800;
+  background: #FF0000;
+  color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  font-style: normal !important;
+  margin-bottom: 0.4em;
+}
+Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText h1 {
+  font-weight: 800;
+  font-size: 2.5em;
+  padding-bottom: 0.4em;
+}
+Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText p {
+  font-size: 1em;
+  opacity: 0.8;
+}
+Main #Chef #ConteinerChef #BoxChef .ConteinerImagem {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0 20px;
+}
+Main #Chef #ConteinerChef #BoxChef .ConteinerImagem .BoxImagem {
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  line-height: 0;
+  position: relative;
+}
+Main #Chef #ConteinerChef #BoxChef .ConteinerImagem .BoxImagem img {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=StyleSobre.module.css.map */
