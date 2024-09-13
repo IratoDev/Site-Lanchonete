@@ -1,5 +1,5 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-
+import { ProviderContext } from "./components/Navbar";
 import HomePage from "./page/Home";
 import CardapioPage from "./page/Cardapio";
 import SobrePage from "./page/Sobre";
@@ -11,6 +11,7 @@ return(
 
 <BrowserRouter>
 
+<ProviderContext>
 <Routes>
 
 <Route path="/" element={<HomePage/>} />
@@ -20,6 +21,7 @@ return(
 
 
 </Routes>
+</ProviderContext>
 
 </BrowserRouter>
 

@@ -1,4 +1,5 @@
 import { NavBar } from "../../components/Navbar";
+import { MenuMobile } from "../../components/Navbar";
 import { FinalPage } from "../../components/FinalPage";
 import { ModalLanche } from "../../components/ModalCardapio";
 import { ModalSobremesa } from "../../components/ModalCardapio";
@@ -19,7 +20,14 @@ return(
 
 <>
 
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"/>
+
+</head>
+
 <NavBar/>
+<MenuMobile/>
 
 <main>
 
@@ -37,10 +45,12 @@ return(
 
 <div className={StyleCardapio.ConteinerTitle}>
 
+<div id={StyleCardapio.BoxText}>
 <span>SABOROSO E CROCANTE</span>
 <h1>Nosso chefe recomenda</h1>
 <p>Experimente as receitas do Chief, incluindo saladas, massas veganas e com baixo teor de gordura
 </p>
+</div>
 
 </div>
 
@@ -49,28 +59,40 @@ return(
     <div className={StyleCardapio.fileiraItem}>
         <div className={StyleCardapio.ItemCatalogo}>
         
+        <div className={StyleCardapio.BoxImg}>
         <img src={Item1} alt="item1"/>
+        </div>
 
+        <div className={StyleCardapio.BoxText}>
         <h2>HAMBÚRGUERES DE CARNE</h2>
         <p>Beterraba, espinafre, quiabo, castanha d'água, arroz, feijão, ervilha.</p>
+        </div>
 
         </div>
 
         <div className={StyleCardapio.ItemCatalogo}>
 
+        <div className={StyleCardapio.BoxImg}>
         <img src={Item2} alt="item2"/>
+        </div>
 
+        <div className={StyleCardapio.BoxText}>
         <h2>HAMBÚRGUERES DE CARNE</h2>
         <p>Beterraba, espinafre, quiabo, castanha d'água, arroz, feijão, ervilha.</p>
+        </div>
 
         </div>
 
         <div className={StyleCardapio.ItemCatalogo}>
 
+        <div className={StyleCardapio.BoxImg}>
         <img src={Item3} alt="item3"/>
+        </div>
 
+        <div className={StyleCardapio.BoxText}>
         <h2>HAMBÚRGUERES DE CARNE</h2>
         <p>Beterraba, espinafre, quiabo, castanha d'água, arroz, feijão, ervilha.</p>
+        </div>
 
         </div>
 

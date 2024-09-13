@@ -1,27 +1,27 @@
-Main #Historia {
+#Historia {
   padding-bottom: 3em;
   padding-top: 6em;
   width: 100%;
 }
-Main #Historia #ConteinerHistoria {
+#Historia #ConteinerHistoria {
   max-width: none;
   padding: 0 30px;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria {
+#Historia #ConteinerHistoria .BoxHistoria {
   display: flex;
   margin: 0 -20px;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionText {
+#Historia #ConteinerHistoria .BoxHistoria #SectionText {
   display: block;
-  padding: 0 20px;
   text-align: left;
   width: 50%;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText {
+#Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText {
   font-family: var(--fontTitle);
+  padding: 0 20px;
   color: #000;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText span {
+#Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText span {
   letter-spacing: 0;
   font-weight: 800;
   background: #FF0000;
@@ -31,103 +31,109 @@ Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText span {
   font-style: normal !important;
   margin-bottom: 0.4em;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText h1 {
+#Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText h1 {
   font-size: 2.4em;
   line-height: 1;
   font-weight: bold;
   padding-bottom: 0.4em;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText p {
+#Historia #ConteinerHistoria .BoxHistoria #SectionText .BoxText p {
   font-size: 1.1em;
   margin-bottom: 0.5em;
   opacity: 0.8;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionImagem {
+#Historia #ConteinerHistoria .BoxHistoria #SectionImagem {
   display: block;
-  padding: 0 20px;
   width: 50%;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem {
+#Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem {
   display: block;
   overflow: hidden;
   max-width: 100%;
+  padding: 0 20px;
   line-height: 0;
   position: relative;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem .BoxImagem {
+#Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem .BoxImagem {
   padding: 0 10px;
   margin: 0 -20px;
 }
-Main #Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem .BoxImagem img {
+#Historia #ConteinerHistoria .BoxHistoria #SectionImagem .ConteinerImagem .BoxImagem img {
   width: 100%;
   height: auto;
 }
-Main #Qualidades {
+
+#Qualidades {
   padding-top: 3em;
   width: 100%;
 }
-Main #Qualidades #ConteinerQualidades {
+#Qualidades #ConteinerQualidades {
   max-width: none;
-  padding: 0 30px;
+  padding: 1.5em 40px;
+  background-color: #f2f1ed !important;
 }
-Main #Qualidades #ConteinerQualidades .BoxQualidades {
+#Qualidades #ConteinerQualidades .BoxQualidades {
   display: flex;
-  margin: 0 -20px;
+  padding: 0 20px;
 }
-Main #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade {
+#Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade {
+  display: flex;
   position: relative;
-  width: 100%;
+  align-items: center;
+  padding: 0 10px;
 }
-Main #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText {
+#Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade span {
+  color: #FF0000;
+  font-size: 4em;
+  padding: 0 20px;
+}
+#Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText {
   display: block;
-  margin-left: 84px;
+  line-height: 1.5;
   font-family: var(--fontTitle);
   color: #262626;
+  text-align: left;
 }
-Main #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText h2 {
+#Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText h2 {
   font-size: 1.2em;
   font-weight: bold;
-  padding-bottom: 0.2em;
 }
-Main #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText p {
-  margin-bottom: 0.65em;
+#Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText p {
   font-size: 0.9em;
   opacity: 0.8;
 }
-Main #Diferenciais {
+
+#Diferenciais {
   padding-bottom: 6em;
   padding-top: 6em;
   width: 100%;
 }
-Main #Diferenciais #ConteinerDiferenciais {
-  max-width: none;
-  padding: 0 30px;
+#Diferenciais #ConteinerDiferenciais {
+  padding: 0 40px;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais {
   display: block;
-  margin: 0 -20px;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial {
+  position: relative;
   width: 100%;
-  padding: 0 20px;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial {
-  padding: 0 10px;
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial:nth-child(2) .BoxDiferencial {
+  flex-direction: row-reverse;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial {
   display: flex;
   align-items: center;
-  margin: 0 -15px;
-  padding: 0 10px;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxText {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText {
   font-family: var(--fontTitle);
   color: #262626;
   width: 50%;
-  margin: 0 auto;
-  padding: 0 40px;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxText span {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText {
+  padding: 20px 40px;
+}
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText span {
   letter-spacing: 0;
   font-weight: 800;
   background: #FF0000;
@@ -137,54 +143,53 @@ Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .Contein
   font-style: normal !important;
   margin-bottom: 0.4em;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxText h1 {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText h1 {
   font-weight: bold;
   font-size: 3em;
+  line-height: 1.2;
   padding-bottom: 0.4em;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxText p {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText p {
   font-size: 1.1em;
   opacity: 0.8;
   margin-bottom: 0.5em;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxImagem {
-  margin: 0 auto;
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerImagem {
+  width: 50%;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxImagem .ConteinerImagem {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerImagem .BoxImagem {
   display: block;
   overflow: hidden;
-  max-width: 100%;
-  line-height: 0;
   position: relative;
-  margin: 0 auto;
+  padding: 30px 0;
+  margin: -35px 0;
 }
-Main #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .ConteinerDiferencial .BoxDiferencial .BoxImagem .ConteinerImagem img {
+#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerImagem .BoxImagem img {
   width: 100%;
   height: auto;
 }
-Main #Chef {
-  border: 3em solid #f6f8fa;
+
+#Chef {
   width: 100%;
 }
-Main #Chef #ConteinerChef {
+#Chef #ConteinerChef {
   max-width: none;
-  padding: 0 30px;
+  padding: 0 20px;
 }
-Main #Chef #ConteinerChef #BoxChef {
+#Chef #ConteinerChef #BoxChef {
   display: flex;
   align-items: stretch;
-  margin: 0 -20px;
 }
-Main #Chef #ConteinerChef #BoxChef .ConteinerText {
-  padding: 0 20px;
+#Chef #ConteinerChef #BoxChef .ConteinerText {
   width: 50%;
 }
-Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText {
+#Chef #ConteinerChef #BoxChef .ConteinerText .BoxText {
   text-align: left;
   font-family: var(--fontTitle);
   color: #262626;
+  padding: 0 40px;
 }
-Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText span {
+#Chef #ConteinerChef #BoxChef .ConteinerText .BoxText span {
   letter-spacing: 0;
   font-weight: 800;
   background: #FF0000;
@@ -194,29 +199,102 @@ Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText span {
   font-style: normal !important;
   margin-bottom: 0.4em;
 }
-Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText h1 {
+#Chef #ConteinerChef #BoxChef .ConteinerText .BoxText h1 {
   font-weight: 800;
   font-size: 2.5em;
   padding-bottom: 0.4em;
 }
-Main #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText p {
+#Chef #ConteinerChef #BoxChef .ConteinerText .BoxText p {
   font-size: 1em;
   opacity: 0.8;
+  margin-bottom: 1em;
 }
-Main #Chef #ConteinerChef #BoxChef .ConteinerImagem {
+#Chef #ConteinerChef #BoxChef .ConteinerImagem {
   display: flex;
   align-items: center;
   width: 50%;
-  padding: 0 20px;
 }
-Main #Chef #ConteinerChef #BoxChef .ConteinerImagem .BoxImagem {
+#Chef #ConteinerChef #BoxChef .ConteinerImagem .BoxImagem {
   display: block;
   overflow: hidden;
-  max-width: 100%;
   line-height: 0;
   position: relative;
+  padding: 0 20px;
 }
-Main #Chef #ConteinerChef #BoxChef .ConteinerImagem .BoxImagem img {
+#Chef #ConteinerChef #BoxChef .ConteinerImagem .BoxImagem img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 760px) {
+  #Historia #ConteinerHistoria {
+    padding: 0 20px;
+  }
+  #Historia #ConteinerHistoria .BoxHistoria {
+    flex-direction: column;
+    margin: none;
+  }
+  #Historia #ConteinerHistoria .BoxHistoria #SectionText {
+    width: 100%;
+    text-align: center;
+  }
+  #Historia #ConteinerHistoria .BoxHistoria #SectionImagem {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  #Qualidades #ConteinerQualidades {
+    padding: 1.5em 20px;
+  }
+  #Qualidades #ConteinerQualidades .BoxQualidades {
+    flex-direction: column;
+  }
+  #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade {
+    flex-direction: column;
+  }
+  #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 760px) {
+  #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial:nth-child(2) .BoxDiferencial {
+    flex-direction: column;
+  }
+  #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial {
+    flex-direction: column;
+  }
+  #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerImagem {
+    width: 100%;
+  }
+  #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText {
+    width: 100%;
+  }
+  #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 760px) {
+  #Chef #ConteinerChef {
+    padding: 0 10px;
+  }
+  #Chef #ConteinerChef #BoxChef {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+  #Chef #ConteinerChef #BoxChef .ConteinerText {
+    width: 100%;
+  }
+  #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText {
+    padding: 0 10px;
+    text-align: center;
+  }
+  #Chef #ConteinerChef #BoxChef .ConteinerImagem {
+    width: 100%;
+  }
 }/*# sourceMappingURL=StyleSobre.module.css.map */

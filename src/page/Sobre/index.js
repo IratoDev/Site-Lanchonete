@@ -1,5 +1,6 @@
 
 import { NavBar } from "../../components/Navbar";
+import { MenuMobile } from "../../components/Navbar";
 import { FinalPage } from "../../components/FinalPage";
 import SectionSaudacao from "../../components/SectionSaudacao";
 import StyleSobre from "./StyleSobre.module.css";
@@ -17,13 +18,15 @@ return(
 
 <>
 
-<NavBar/>
-
 <head>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></link>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"/>
 
 </head>
+
+<NavBar/>
+
+<MenuMobile/>
 
 <main>
 
@@ -83,7 +86,7 @@ return(
         
 
             <div className={StyleSobre.ElementQualidade}>
-            <span><i class="bi bi-cloud-fog-fill"></i></span>
+            <span className={StyleSobre.BoxIcon}><i class="bi bi-cloud-fog-fill"></i></span>
             
             <div className={StyleSobre.BoxText}>
             <h2>Nós servimos paixão</h2>
@@ -94,23 +97,22 @@ return(
             </div>
 
             <div className={StyleSobre.ElementQualidade}>
-            <span><i class="bi bi-fire"></i></span>
+            <span className={StyleSobre.BoxIcon}><i class="bi bi-fire"></i></span>
             
             <div className={StyleSobre.BoxText}>
-            <h2>Nós servimos paixão</h2>
-            <p>Traga à mesa estratégias de sobrevivência vantajosas para garantir o domínio proativo.
-            </p>
+            <h2>Espere o melhor</h2>
+            <p>Aproveite oportunidades mais fáceis para identificar um estádio de beisebol premium</p>
             </div>
 
             </div>
 
             <div className={StyleSobre.ElementQualidade}>
-            <span><i class="bi bi-cake2"></i></span>
+            <span className={StyleSobre.BoxIcon}><i class="bi bi-cake2"></i></span>
             
             <div className={StyleSobre.BoxText}>
-            <h2>Nós servimos paixão</h2>
-            <p>Traga à mesa estratégias de sobrevivência vantajosas para garantir o domínio proativo.
-            </p>
+            <h2>Nós vendemos sabores</h2>
+            <p>Ligue para nós gratuitamente em
+            (+1) 800 456324 ou (+1) 555 456325</p>
             </div>
 
             </div>
@@ -129,23 +131,24 @@ return(
 
 <div id={StyleSobre.BoxDiferenciais}>
 
-    <div className={StyleSobre.Diferencial}>
-
-        <div className={StyleSobre.ConteinerDiferencial}>
+    <div className={StyleSobre.Diferencial}>    
 
             <div className={StyleSobre.BoxDiferencial}>
 
-                <div className={StyleSobre.BoxText}>
+                <div className={StyleSobre.ConteinerText}>
 
+                <div className={StyleSobre.BoxText}>
                 <span>INOVADOR</span>
                 <h1>Design de restaurante</h1>
                 <p>Capitalize em frutos fáceis para identificar uma atividade de valor agregado de estádio para teste beta. Supere a exclusão digital com cliques adicionais do DevOps.</p>
+                </div>
+
 
                 </div>
 
-                <div className={StyleSobre.BoxImagem}>
+                <div className={StyleSobre.ConteinerImagem}>
 
-                    <div className={StyleSobre.ConteinerImagem}>
+                    <div className={StyleSobre.BoxImagem}>
 
                         <img src={imagem2} alt="img1"/>
 
@@ -155,27 +158,25 @@ return(
 
             </div>
 
-        </div>
-
     </div>
 
     <div className={StyleSobre.Diferencial}>
 
-        <div className={StyleSobre.ConteinerDiferencial}>
+            <div className={StyleSobre.BoxDiferencial}>
 
-            <div className={StyleSobre.BoxDiferencial} style={{display:"flex",flexDirection:"row-reverse"}}>
+                <div className={StyleSobre.ConteinerText}>
 
                 <div className={StyleSobre.BoxText}>
-
                 <span>NOVA LOCALIZAÇÃO</span>
                 <h1>Espere o melhor</h1>
                 <p>Capitalize em frutos fáceis para identificar uma atividade de valor agregado de estádio para teste beta. Supere a exclusão digital com cliques adicionais do DevOps.</p>
+                </div>
 
                 </div>
 
-                <div className={StyleSobre.BoxImagem}>
+                <div className={StyleSobre.ConteinerImagem}>
 
-                    <div className={StyleSobre.ConteinerImagem}>
+                    <div className={StyleSobre.BoxImagem}>
 
                         <img src={imagem3} alt="img1"/>
 
@@ -185,27 +186,25 @@ return(
 
             </div>
 
-        </div>
-
     </div>
 
     <div className={StyleSobre.Diferencial}>
 
-        <div className={StyleSobre.ConteinerDiferencial}>
-
             <div className={StyleSobre.BoxDiferencial}>
 
-                <div className={StyleSobre.BoxText}>
+                <div className={StyleSobre.ConteinerText}>
 
+                <div className={StyleSobre.BoxText}>
                 <span>FRESCO E SABOROSO</span>
                 <h1>Mudando a cara do fast food</h1>
                 <p>Capitalize em frutos fáceis para identificar uma atividade de valor agregado de estádio para teste beta. Supere a exclusão digital com cliques adicionais do DevOps.</p>
+                </div>
 
                 </div>
 
-                <div className={StyleSobre.BoxImagem}>
+                <div className={StyleSobre.ConteinerImagem}>
 
-                    <div className={StyleSobre.ConteinerImagem}>
+                    <div className={StyleSobre.BoxImagem}>
 
                         <img src={imagem4} alt="img1"/>
 
@@ -214,8 +213,6 @@ return(
                 </div>
 
             </div>
-
-        </div>
 
     </div>
 
@@ -236,11 +233,13 @@ return(
 
         <div className={StyleSobre.BoxText}>
 
+        <div className={StyleSobre.BoxText}>
         <span>NOSSO CHEF</span>
         <h1>Conheça o Chef</h1>
         <p>Folhas de nabo, mil-folhas, feijão-de-rice, rutabaga, escarola, couve-flor, alface-do-mar, couve-rábano, amaranto, espinafre aquático, abacate, daikon, repolho chinês, aspargos, beldroegas de inverno, couve. Aipo, batata, cebolinha, passas do deserto, raiz-forte, espinafre, cenoura, soko. Raiz de lótus, espinafre aquático, erva-doce, kombu, milho, broto de bambu.</p>
 
         <p style={{fontWeight:"bold", opacity:"1"}}>Folhas de nabo, mil-folhas, feijão-de-rice, rutabaga, escarola, couve-flor, alface-do-mar, couve-rábano, amaranto, espinafre aquático, abacate, daikon, repolho chinês, aspargos, beldroegas de inverno, couve. Aipo, batata, cebolinha, passas do deserto, raiz-forte, espinafre, cenoura, soko. Raiz de lótus, espinafre aquático, erva-doce, kombu, milho, broto de bambu.</p>
+        </div>
 
         </div>
 

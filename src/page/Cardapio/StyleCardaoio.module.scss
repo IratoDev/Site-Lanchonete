@@ -1,5 +1,4 @@
 
-Main{
 
 #SectionCatalogo{
 display: block;
@@ -13,22 +12,21 @@ background-color: #FFF;
 display: flex;
 flex-direction: column;
 gap: 2.5em;
-
 align-items: center;
-width: 100%;
-max-width: none;
-
-margin: 0 -40px;
 padding: 0 40px;
 
 
 .ConteinerTitle{
+
 display: block;
-margin: 0 -20px;
+padding: 0 40px;
 
 text-align: center;
-
 font-family: var(--fontTitle);
+
+#BoxText{
+
+padding: 0 20px;
 
 span{
 letter-spacing: 0;
@@ -43,7 +41,8 @@ margin-bottom: .4em;
 
 h1{
 font-size: 3em;
-padding-bottom: .4em;
+line-height: 1.3;
+padding-bottom: 0.4em;
 }
 
 p{
@@ -55,30 +54,37 @@ clear: both;
 
 }
 
+}
+
 .ConteinerProduto{
 
 display: block;
-margin: 0 -40px;
+padding: 0 20px;
 
 .fileiraItem{
 display: flex;
-padding: 0 40px;
+padding: 0 10px;
 
 }
 
 .ItemCatalogo{
 
 width: 33.33333333%;
-height: auto;
-text-align: center;
-font-family: var(--fontTitle);
 
+.BoxImg{
+
+padding: 0 40px;
 
 img{
-width: 70%;
+width: 100%;
 height: auto;
 }
+}
 
+.BoxText{
+
+text-align: center;
+font-family: var(--fontTitle);
 
 h2{
 font-size: 1.2em;
@@ -91,14 +97,54 @@ margin-bottom: 0.65em;
 font-size: 0.9em;
 opacity: 0.8;
 }
+}
+
+}
+
+}
+
 
 }
 
 }
 
+@media screen and (max-width:760px ) {
+
+#SectionCatalogo{
+
+border: 1em solid #f6f8fa;
+
+.ConteinerCatalogo{
+
+padding: 0 10px;
+
+.ConteinerTitle{
+
+padding: 0 20px;
+
+#BoxText{
+
+padding: 0 10px;
+
+h1{
+font-size: 2.5em;
+}
 
 }
 
+}
+
+.ConteinerProduto .fileiraItem{
+
+flex-direction: column;
+
+.ItemCatalogo{
+
+width:100%;
+}
+
+}
+}
 }
 
 }

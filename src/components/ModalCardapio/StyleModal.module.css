@@ -8,8 +8,7 @@
   max-width: none;
 }
 .ModalCardapio .ConteinerModal .ConteinerCardapio {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0 30px;
 }
 .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteinerTitle {
   display: block;
@@ -46,18 +45,16 @@
 }
 .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos {
   display: flex;
-  margin: 0 -20px;
+  padding: 0 20px;
 }
 .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto {
   width: 100%;
-  padding: 0 20px;
 }
 .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto {
   display: flex;
   align-items: center;
   text-align: left;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em 20px;
 }
 .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto .BoxImg {
   flex: 0 0 80px;
@@ -108,8 +105,7 @@
   max-width: none;
 }
 .ModalSobremesa .ConteinerModal .ConteinerCardapio {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0 40px;
 }
 .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteinerTitle {
   display: block;
@@ -147,18 +143,16 @@
 }
 .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos {
   display: flex;
-  margin: 0 -20px;
+  padding: 0 20px;
 }
 .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto {
   width: 100%;
-  padding: 0 20px;
 }
 .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto {
   display: flex;
   align-items: center;
   text-align: left;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em 20px;
 }
 .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto .BoxImg {
   flex: 0 0 80px;
@@ -209,8 +203,7 @@
   max-width: none;
 }
 .ModalBebidas .ConteinerModal .ConteinerCardapio {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0 30px;
 }
 .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteinerTitle {
   display: block;
@@ -248,7 +241,6 @@
 .ModalBebidas .ConteinerModal .ConteinerCardapio #NavBarBebidas {
   display: flex;
   justify-content: center;
-  gap: 2em;
   align-items: center;
   width: 100%;
   font-family: var(--fontTitle);
@@ -258,11 +250,12 @@
   padding: 1em 2em 1em;
   line-height: 1;
   cursor: pointer;
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.07);
 }
 .ModalBebidas .ConteinerModal .ConteinerCardapio #NavBarBebidas span.focused {
   color: #FF0000;
-  border-bottom: 2px solid #FF0000;
-  line-height: 1.5;
+  border-bottom: 3px solid #FF0000;
+  line-height: 1;
 }
 .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteirProdutos {
   display: flex;
@@ -281,15 +274,13 @@
 }
 .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteirProdutos #conteinerSlides .Slides .ColunProduto {
   width: 100%;
-  padding: 0 20px;
   padding-top: 3em;
 }
 .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteirProdutos #conteinerSlides .Slides .ColunProduto .Produto {
   display: flex;
   align-items: center;
   text-align: left;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em 20px;
 }
 .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteirProdutos #conteinerSlides .Slides .ColunProduto .Produto .BoxImg {
   flex: 0 0 80px;
@@ -326,4 +317,171 @@
   font-size: 1.1em;
   font-weight: 400;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 760px) {
+  .ModalCardapio {
+    border: 1em solid #fff;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteinerTitle {
+    display: block;
+    margin: 0 -20px;
+    padding: 0 20px;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitle {
+    font-family: var(--fontTitle);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2.4em;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitle Span {
+    letter-spacing: 0;
+    font-weight: 800;
+    background: #FF0000;
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    font-style: normal !important;
+    margin-bottom: 0.4em;
+    font-size: 0.9em;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitle h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #262626;
+    padding-bottom: 0.1em;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitle p {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    opacity: 0.6;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos {
+    flex-direction: column;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto .BoxImg {
+    flex: 0 0 160px;
+    margin-bottom: 0.5em;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto .BoxImg img {
+    width: auto;
+    max-height: 100%;
+    height: auto;
+  }
+  .ModalCardapio .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto .BoxText {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 760px) {
+  .ModalSobremesa {
+    padding-bottom: 1em;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio {
+    padding: 0 20px;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteinerTitle {
+    display: block;
+    margin: 0 -20px;
+    padding: 0 20px;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitleSobremesa {
+    font-family: var(--fontTitle);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding-bottom: 2.4em;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitleSobremesa Span {
+    letter-spacing: 0;
+    font-weight: 800;
+    background: #FF0000;
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    font-style: normal !important;
+    margin-bottom: 0.4em;
+    font-size: 0.9em;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitleSobremesa h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 0.1em;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitleSobremesa p {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    opacity: 0.6;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto {
+    flex-direction: column;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto .BoxImg {
+    flex: 0 0 160px;
+    margin-bottom: 0.5em;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto .BoxImg img {
+    width: auto;
+    max-height: 100%;
+    height: auto;
+  }
+  .ModalSobremesa .ConteinerModal .ConteinerCardapio .ConteirProdutos .ColunProduto .Produto .BoxText {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 760px) {
+  .ModalBebidas {
+    border: 1em solid #fff;
+    padding-bottom: 1em;
+  }
+  .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteinerTitle {
+    display: block;
+    margin: 0 -20px;
+    padding: 0 20px;
+  }
+  .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitle {
+    font-family: var(--fontTitle);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2.4em;
+  }
+  .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitle Span {
+    letter-spacing: 0;
+    font-weight: 800;
+    background: #FF0000;
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    font-style: normal !important;
+    margin-bottom: 0.4em;
+    font-size: 0.9em;
+  }
+  .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitle h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #262626;
+    padding-bottom: 0.1em;
+  }
+  .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteinerTitle .BoxTitle p {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    opacity: 0.6;
+  }
+  .ModalBebidas .ConteinerModal .ConteinerCardapio #NavBarBebidas span {
+    padding: 0.5em;
+  }
+  .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteirProdutos #conteinerSlides .Slides {
+    flex-direction: column;
+  }
+  .ModalBebidas .ConteinerModal .ConteinerCardapio .ConteirProdutos #conteinerSlides .Slides .ColunProduto .Produto {
+    padding: 1em 10px;
+  }
 }/*# sourceMappingURL=StyleModal.module.css.map */

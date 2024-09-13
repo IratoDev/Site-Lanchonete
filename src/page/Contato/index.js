@@ -1,5 +1,6 @@
 
 import { NavBar } from "../../components/Navbar";
+import { MenuMobile } from "../../components/Navbar";
 import { FinalPage } from "../../components/FinalPage";
 import SectionSaudacao from "../../components/SectionSaudacao";
 
@@ -13,7 +14,14 @@ return(
 
 <>
 
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"/>
+
+</head>
+
 <NavBar/>
+<MenuMobile/>
 
 <main>
 
@@ -80,7 +88,7 @@ return(
             <label>
             <legend>Sua mensagem</legend>
 
-                <textarea cols="40" rows="10" maxlength="2000"/>
+                <textarea cols="40" rows="10" maxlength="2000" placeholder="Digite sua mensagem..."/>
 
             </label>
 

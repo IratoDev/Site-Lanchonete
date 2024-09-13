@@ -1,4 +1,4 @@
-Main #SectionCatalogo {
+#SectionCatalogo {
   display: block;
   border: 3em solid #f6f8fa;
   border-top: none;
@@ -6,23 +6,23 @@ Main #SectionCatalogo {
   padding-bottom: 3em;
   background-color: #FFF;
 }
-Main #SectionCatalogo .ConteinerCatalogo {
+#SectionCatalogo .ConteinerCatalogo {
   display: flex;
   flex-direction: column;
   gap: 2.5em;
   align-items: center;
-  width: 100%;
-  max-width: none;
-  margin: 0 -40px;
   padding: 0 40px;
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerTitle {
+#SectionCatalogo .ConteinerCatalogo .ConteinerTitle {
   display: block;
-  margin: 0 -20px;
+  padding: 0 40px;
   text-align: center;
   font-family: var(--fontTitle);
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerTitle span {
+#SectionCatalogo .ConteinerCatalogo .ConteinerTitle #BoxText {
+  padding: 0 20px;
+}
+#SectionCatalogo .ConteinerCatalogo .ConteinerTitle #BoxText span {
   letter-spacing: 0;
   font-weight: 800;
   background: #FF0000;
@@ -32,41 +32,70 @@ Main #SectionCatalogo .ConteinerCatalogo .ConteinerTitle span {
   font-style: normal !important;
   margin-bottom: 0.4em;
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerTitle h1 {
+#SectionCatalogo .ConteinerCatalogo .ConteinerTitle #BoxText h1 {
   font-size: 3em;
+  line-height: 1.3;
   padding-bottom: 0.4em;
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerTitle p {
+#SectionCatalogo .ConteinerCatalogo .ConteinerTitle #BoxText p {
   font-size: 1.1em;
   margin-bottom: 0.5em;
   opacity: 0.6;
   clear: both;
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerProduto {
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto {
   display: block;
-  margin: 0 -40px;
+  padding: 0 20px;
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem {
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem {
   display: flex;
+  padding: 0 10px;
+}
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo {
+  width: 33.33333333%;
+}
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo .BoxImg {
   padding: 0 40px;
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo {
-  width: 33.33333333%;
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo .BoxImg img {
+  width: 100%;
   height: auto;
+}
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo .BoxText {
   text-align: center;
   font-family: var(--fontTitle);
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo img {
-  width: 70%;
-  height: auto;
-}
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo h2 {
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo .BoxText h2 {
   font-size: 1.2em;
   font-weight: bold;
   padding-bottom: 0.2em;
 }
-Main #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo p {
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo .BoxText p {
   margin-bottom: 0.65em;
   font-size: 0.9em;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 760px) {
+  #SectionCatalogo {
+    border: 1em solid #f6f8fa;
+  }
+  #SectionCatalogo .ConteinerCatalogo {
+    padding: 0 10px;
+  }
+  #SectionCatalogo .ConteinerCatalogo .ConteinerTitle {
+    padding: 0 20px;
+  }
+  #SectionCatalogo .ConteinerCatalogo .ConteinerTitle #BoxText {
+    padding: 0 10px;
+  }
+  #SectionCatalogo .ConteinerCatalogo .ConteinerTitle #BoxText h1 {
+    font-size: 2.5em;
+  }
+  #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem {
+    flex-direction: column;
+  }
+  #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem .ItemCatalogo {
+    width: 100%;
+  }
 }/*# sourceMappingURL=StyleCardaoio.module.css.map */

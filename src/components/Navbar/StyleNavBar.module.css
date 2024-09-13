@@ -1,22 +1,32 @@
 header {
   background-color: transparent;
-  position: absolute;
+  position: fixed;
   z-index: 100;
   top: 0;
+  width: 100%;
+  min-width: 280px;
 }
 header #conteinerNavBar {
   display: flex;
+  align-items: center;
   flex-direction: row;
-  padding-right: 30px;
-  padding-left: 30px;
-  width: 100%;
+  position: relative;
+  padding: 0 40px;
   max-width: none;
   margin: auto;
   font-family: var(--fontTitle);
 }
+header #conteinerNavBar .BoxLogo {
+  padding: 0 10px;
+}
+header #conteinerNavBar .BoxLogo img {
+  width: 100%;
+  height: auto;
+}
 header #conteinerNavBar nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
   unicode-bidi: isolate;
   padding-left: 50px;
@@ -27,7 +37,91 @@ header #conteinerNavBar nav .ButtonNavBar {
   color: #fff;
   font-weight: 400;
   line-height: 100px;
-  padding: 1em 1em;
+  padding: 0.5em 1em;
   text-decoration: none;
   text-transform: uppercase;
+}
+header #conteinerNavBar nav .BoxButton {
+  position: absolute;
+  right: 0;
+}
+header #conteinerNavBar nav .BoxButton .BtnMobile {
+  padding-right: 1em;
+  font-size: 3em;
+  border: none;
+  background: none;
+  color: #fff;
+}
+header #conteinerNavBar #BoxIcon {
+  display: flex;
+  position: absolute;
+  right: 0;
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 40px;
+}
+header #conteinerNavBar #BoxIcon i {
+  padding: 0 20px;
+}
+header .ConteinerActived {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+header .ConteinerActived nav .ButtonNavBar {
+  color: #000 !important;
+}
+header .BoxIconActived {
+  color: #000 !important;
+}
+
+#MenuMobile {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  z-index: 200;
+  background-color: #fff;
+  transition: all 500ms ease-in-out;
+  width: 60%;
+  height: 100%;
+}
+#MenuMobile #conteinerMenuMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 80%;
+  height: 80vh;
+}
+#MenuMobile #conteinerMenuMobile .BoxLogo {
+  padding: 0 20px;
+}
+#MenuMobile #conteinerMenuMobile .BoxLogo img {
+  width: 100%;
+  height: auto;
+}
+#MenuMobile #conteinerMenuMobile nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#MenuMobile #conteinerMenuMobile nav .ButtonNavBar {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  line-height: 80px;
+  font-family: var(--fontTitle);
+  padding: 0 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#MenuMobile #conteinerMenuMobile #BoxIcon {
+  display: flex;
+  font-size: 1.5em;
+  color: #000;
+  padding: 0 20px;
+}
+#MenuMobile #conteinerMenuMobile #BoxIcon i {
+  padding: 0 10px;
 }/*# sourceMappingURL=StyleNavBar.module.css.map */
