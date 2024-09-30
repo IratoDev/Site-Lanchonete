@@ -65,7 +65,7 @@
   align-items: center;
   width: 100%;
   padding: 3em 0;
-  text-align: right;
+  text-align: left;
 }
 #DownloadCardapio .ConteinerDownload h1 {
   font-size: 2.25em;
@@ -102,11 +102,10 @@ footer #FooterDireitos p {
 }
 footer .ConteinerFooter {
   display: flex;
+  flex-wrap: wrap;
   gap: 1em;
-  margin: 0 -20px;
-  padding: 0 20px;
   padding-bottom: 2em;
-  width: 50%;
+  width: 100%;
   text-align: right;
 }
 footer .ConteinerFooter .LinkFooter {
@@ -117,6 +116,11 @@ footer .ConteinerFooter .LinkFooter {
 @media screen and (max-width: 760px) {
   #SectionEndereco .conteinerEndereco {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 760px) {
+  #DownloadCardapio .ConteinerDownload {
+    text-align: center;
   }
 }
 @media screen and (max-width: 760px) {

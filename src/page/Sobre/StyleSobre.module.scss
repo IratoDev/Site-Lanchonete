@@ -192,7 +192,7 @@ width: 50%;
 
 .BoxText{
 
-padding: 20px 40px;
+padding: 0 40px;
 
 span{
 
@@ -214,7 +214,7 @@ padding-bottom: 0.4em;
 }
 
 p{
-font-size: 1.1em;
+font-size: 1em;
 opacity: 0.8;
 margin-bottom: .5em;
 }
@@ -260,11 +260,12 @@ height: auto;
 #Chef{
 
 width: 100%;
+padding: 3em 0;
 
 #ConteinerChef{
 
 max-width: none;
-padding: 0 20px;
+padding: 0 40px;
 
 #BoxChef{
 
@@ -279,7 +280,7 @@ width: 50%;
 text-align: left;
 font-family: var(--fontTitle);
 color: #262626;
-padding: 0 40px;
+padding: 0 20px;
 
 
 span{
@@ -338,7 +339,7 @@ height: auto;
 
 }
 
-//Historia
+//Historia(Celular)
 @media screen and (max-width:760px ) {
 
 #Historia #ConteinerHistoria{
@@ -367,7 +368,7 @@ width: 100%;
 
 }
 
-//Qualidade
+//Qualidade(Celular)
 @media screen and (max-width:760px ) {
 
 #Qualidades #ConteinerQualidades{
@@ -393,12 +394,16 @@ text-align: center;
 
 }
 
-//Diferenciais
+//Diferenciais(Celular)
 @media screen and (max-width:760px ) {
 
-#Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial{
+#Diferenciais #ConteinerDiferenciais{
+    
+padding: 0 20px;
 
-    &:nth-child(2) {
+#BoxDiferenciais .Diferencial{
+
+&:nth-child(2) {
 .BoxDiferencial {
 flex-direction: column;
 }
@@ -428,10 +433,11 @@ font-size: 2em;
 
 }
 }
+}
 
 }
 
-//Cheff
+//Cheff(Celular)
 @media screen and (max-width:760px ) {
 
 #Chef #ConteinerChef{
@@ -456,6 +462,32 @@ text-align: center;
 
 .ConteinerImagem{
 width: 100%;
+}
+
+}
+}
+
+}
+
+
+//Qualidade(Tablet)
+@media screen and (max-width:1000px ) {
+
+#Qualidades #ConteinerQualidades{
+
+padding:1.5em 20px;
+
+.BoxQualidades{
+
+
+.ElementQualidade{
+
+flex-direction: column;
+
+.BoxText{
+text-align: center;
+}
+
 }
 
 }

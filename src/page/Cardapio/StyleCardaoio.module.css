@@ -78,6 +78,7 @@
 
 @media screen and (max-width: 760px) {
   #SectionCatalogo {
+    padding-top: 1em;
     border: 1em solid #f6f8fa;
   }
   #SectionCatalogo .ConteinerCatalogo {
@@ -97,5 +98,15 @@
   }
   #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem .ItemCatalogo {
     width: 100%;
+    margin-bottom: 1.5em;
+  }
+}
+@media screen and (max-width: 830px) {
+  #SectionCatalogo {
+    border: 1.5em solid #f6f8fa;
+  }
+  #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .ItemCatalogo {
+    width: 33.33333333%;
+    margin: 0 10px;
   }
 }/*# sourceMappingURL=StyleCardaoio.module.css.map */

@@ -65,14 +65,19 @@ opacity: 0.8;
 form{
 
 float: left;
-width: 100%;
+width:100%;
 font-family: var(--fontTitle);
+
+& *{
+
+padding: 0 20px;
+
+}
 
 label * {
 width: 100%;
-max-width: 100%;
 
-padding: 0.8em;
+padding: 0.8em 0;
 display: block;
 border-radius: 0;
 
@@ -118,8 +123,7 @@ textarea{
 resize: vertical;
 line-height: inherit;
 border: 1px solid rgba(0, 0, 0, .15);
-padding-left: 20px;
-padding-right: 20px;
+
 }
 
 button{

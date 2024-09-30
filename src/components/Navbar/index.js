@@ -69,12 +69,14 @@ return () => {
 
 const Navegacao =()=>{
 
-if(Width >= 760){
+if(Width >= 880){
 
 return <div id={StyleNavBar.conteinerNavBar} className={Nav ? StyleNavBar.ConteinerActived : ""}> 
 
+<div className={StyleNavBar.ConteinerLogo}>
 <div className={StyleNavBar.BoxLogo}>
 <img src={Imagem} alt="Fast food Demo"/>
+</div>
 </div>
 
 <nav>
@@ -98,8 +100,13 @@ return <div id={StyleNavBar.conteinerNavBar} className={Nav ? StyleNavBar.Contei
 
 return <div id={StyleNavBar.conteinerNavBar} className={Nav ? StyleNavBar.ConteinerActived : ""}> 
 
+<div className={StyleNavBar.ConteinerLogo}>
+
 <div className={StyleNavBar.BoxLogo}>
+
 <img src={Imagem} alt="Fast food Demo"/>
+</div>
+
 </div>
 
 <nav>
@@ -148,8 +155,16 @@ return(
 
 export function MenuMobile(){
 
+
 const { ButtonMenu, setButtonMenu } = useContext(MyContext);
 const [WidthMenu, setWidthMenu] = useState(window.innerWidth);
+
+function TransicaoNav(){
+
+(setButtonMenu(false));
+ window.scrollTo(0, 0);
+
+}
 
 useEffect(()=>{
   
@@ -167,7 +182,7 @@ return () => {
 
 const Menu = ()=>{
 
-if(ButtonMenu && WidthMenu < 751){
+if(ButtonMenu && WidthMenu < 880){
 
 return <div id={StyleNavBar.MenuMobile}>
 
@@ -178,10 +193,10 @@ return <div id={StyleNavBar.MenuMobile}>
 </div>
 
 <nav className={StyleNavBar.ConteinerButton}>
-<Link className={StyleNavBar.ButtonNavBar} to='/'>HOME</Link>
-<Link className={StyleNavBar.ButtonNavBar} to='/Sobre'>SOBRE</Link>
-<Link className={StyleNavBar.ButtonNavBar} to='/Cardapio'>CARDAPIO</Link>
-<Link className={StyleNavBar.ButtonNavBar} to='/Contato'>CONTATO</Link>
+<Link className={StyleNavBar.ButtonNavBar} onClick={TransicaoNav} to='/'>HOME</Link>
+<Link className={StyleNavBar.ButtonNavBar} onClick={TransicaoNav} to='/Sobre'>SOBRE</Link>
+<Link className={StyleNavBar.ButtonNavBar} onClick={TransicaoNav} to='/Cardapio'>CARDAPIO</Link>
+<Link className={StyleNavBar.ButtonNavBar} onClick={TransicaoNav} to='/Contato'>CONTATO</Link>
 </nav>
 
 <div id={StyleNavBar.BoxIcon}>

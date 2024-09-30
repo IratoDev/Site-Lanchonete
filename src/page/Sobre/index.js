@@ -233,7 +233,6 @@ return(
 
         <div className={StyleSobre.BoxText}>
 
-        <div className={StyleSobre.BoxText}>
         <span>NOSSO CHEF</span>
         <h1>Conheça o Chef</h1>
         <p>Folhas de nabo, mil-folhas, feijão-de-rice, rutabaga, escarola, couve-flor, alface-do-mar, couve-rábano, amaranto, espinafre aquático, abacate, daikon, repolho chinês, aspargos, beldroegas de inverno, couve. Aipo, batata, cebolinha, passas do deserto, raiz-forte, espinafre, cenoura, soko. Raiz de lótus, espinafre aquático, erva-doce, kombu, milho, broto de bambu.</p>
@@ -241,7 +240,7 @@ return(
         <p style={{fontWeight:"bold", opacity:"1"}}>Folhas de nabo, mil-folhas, feijão-de-rice, rutabaga, escarola, couve-flor, alface-do-mar, couve-rábano, amaranto, espinafre aquático, abacate, daikon, repolho chinês, aspargos, beldroegas de inverno, couve. Aipo, batata, cebolinha, passas do deserto, raiz-forte, espinafre, cenoura, soko. Raiz de lótus, espinafre aquático, erva-doce, kombu, milho, broto de bambu.</p>
         </div>
 
-        </div>
+       
 
     </div>
 

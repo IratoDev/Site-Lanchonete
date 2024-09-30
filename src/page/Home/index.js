@@ -167,7 +167,9 @@ IN GALAXY</h1>
     <div className={StylePageHome.fileiraItem}>
         <div className={StylePageHome.ItemCatalogo}>
         
+        <div className={StylePageHome.BoxImg}>
         <img src={Item1} alt="item1"/>
+        </div>
 
         <div className={StylePageHome.BoxText}>
         <h2>HAMBÚRGUERES DE CARNE</h2>
@@ -178,7 +180,9 @@ IN GALAXY</h1>
 
         <div className={StylePageHome.ItemCatalogo}>
 
+        <div className={StylePageHome.BoxImg}>
         <img src={Item2} alt="item2"/>
+        </div>
 
         <div className={StylePageHome.BoxText}>
         <h2>HAMBÚRGUERES DE FRANGO</h2>
@@ -189,7 +193,9 @@ IN GALAXY</h1>
 
         <div className={StylePageHome.ItemCatalogo}>
 
+        <div className={StylePageHome.BoxImg}>
         <img src={Item3} alt="item3"/>
+        </div>
 
         <div className={StylePageHome.BoxText}>
         <h2>OPÇÕES VEGANAS</h2>
@@ -203,7 +209,9 @@ IN GALAXY</h1>
     <div className={StylePageHome.fileiraItem}>
         <div className={StylePageHome.ItemCatalogo}>
         
+         <div className={StylePageHome.BoxImg}>
          <img src={Item4} alt="item4"/>
+         </div>
          
          <div className={StylePageHome.BoxText}>
          <h2>SALADAS E WRAPS</h2>
@@ -214,7 +222,9 @@ IN GALAXY</h1>
 
         <div className={StylePageHome.ItemCatalogo}>
    
+         <div className={StylePageHome.BoxImg}>
          <img src={Item5} alt="item5"/>
+         </div>
 
         <div className={StylePageHome.BoxText}>
          <h2>BATATA FRITA</h2>
@@ -225,7 +235,9 @@ IN GALAXY</h1>
 
         <div className={StylePageHome.ItemCatalogo}>
 
+         <div className={StylePageHome.BoxImg}>
          <img src={Item6} alt="item6"/>
+         </div>
         
          <div className={StylePageHome.BoxText}>
          <h2>GRANDES SOBREMESAS</h2>
@@ -386,7 +398,9 @@ IN GALAXY</h1>
     <div className={StylePageHome.ConteinerSlide}>
 
         <div className={StylePageHome.ConteinerImgCarrosel}>
+        <div className={StylePageHome.BoxImg}>
         <img src={imgCarrosel1} alt="ImagemCarrosel1"/>
+        </div>
         </div>
 
         <div className={StylePageHome.ConteinerTextCarrosel}>
@@ -410,7 +424,9 @@ IN GALAXY</h1>
     <div className={StylePageHome.ConteinerSlide}>
 
         <div className={StylePageHome.ConteinerImgCarrosel}>
+        <div className={StylePageHome.BoxImg}>
         <img src={imgCarrosel2} alt="ImagemCarrosel1"/>
+        </div>
         </div>
 
         <div className={StylePageHome.ConteinerTextCarrosel}>
@@ -433,7 +449,9 @@ IN GALAXY</h1>
     <div className={StylePageHome.ConteinerSlide}>
 
         <div className={StylePageHome.ConteinerImgCarrosel}>
+        <div className={StylePageHome.BoxImg}>
         <img src={imgCarrosel3} alt="ImagemCarrosel1"/>
+        </div>
         </div>
 
         <div className={StylePageHome.ConteinerTextCarrosel}>

@@ -113,9 +113,7 @@
   flex-direction: column;
   gap: 2.5em;
   align-items: center;
-  width: 100%;
   max-width: none;
-  margin: 0 -40px;
   padding: 0 40px;
 }
 #SectionCatalogo .ConteinerCatalogo .ConteinerTitle {
@@ -160,8 +158,11 @@
   text-align: center;
   font-family: var(--fontTitle);
 }
-#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem .ItemCatalogo img {
-  width: 70%;
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem .ItemCatalogo .BoxImg {
+  padding: 0 40px;
+}
+#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem .ItemCatalogo .BoxImg img {
+  width: 100%;
   height: auto;
 }
 #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem .ItemCatalogo .BoxText {
@@ -221,7 +222,7 @@
   text-align: left;
   font-family: var(--fontTitle);
   padding: 0 40px;
-  margin: 3em;
+  margin: 3em 0;
 }
 #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades .BoxTextNovidades .BoxText {
   padding: 0 20px;
@@ -238,14 +239,14 @@
   margin-bottom: 0.4em;
 }
 #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades .BoxTextNovidades .BoxText h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
   line-height: 1;
-  padding-bottom: 0.4em;
+  padding-bottom: 0.5em;
 }
 #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades .BoxTextNovidades .BoxText p {
-  font-size: 1.1em;
-  margin-bottom: 0.5em;
+  font-size: 1em;
+  margin-bottom: 0.4em;
 }
 #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades .BoxTextNovidades .BoxText .ButtonNovidade {
   border: 2px solid #fff;
@@ -315,7 +316,6 @@
   transition: transform 0.5s ease-in-out;
 }
 #Carrosel #ConteinerCarrosel #ConteinerSlides .Slides {
-  margin: 0 auto;
   min-width: 100%;
   height: auto;
   padding: 0 auto;
@@ -328,16 +328,17 @@
   max-width: 100%;
 }
 #Carrosel #ConteinerCarrosel #ConteinerSlides .Slides .ConteinerSlide .ConteinerImgCarrosel {
-  padding: 0 40px;
   width: 50%;
 }
-#Carrosel #ConteinerCarrosel #ConteinerSlides .Slides .ConteinerSlide .ConteinerImgCarrosel img {
+#Carrosel #ConteinerCarrosel #ConteinerSlides .Slides .ConteinerSlide .ConteinerImgCarrosel .BoxImg {
+  padding: 0 40px;
+}
+#Carrosel #ConteinerCarrosel #ConteinerSlides .Slides .ConteinerSlide .ConteinerImgCarrosel .BoxImg img {
   width: 100%;
   height: auto;
 }
 #Carrosel #ConteinerCarrosel #ConteinerSlides .Slides .ConteinerSlide .ConteinerTextCarrosel {
   width: 60%;
-  padding: 0 40px;
   margin: 0 -15px;
   text-align: left;
   font-family: var(--fontTitle);
@@ -345,6 +346,7 @@
 #Carrosel #ConteinerCarrosel #ConteinerSlides .Slides .ConteinerSlide .ConteinerTextCarrosel .BoxtextCarrosel {
   display: block;
   clear: both;
+  padding: 0 10px;
 }
 #Carrosel #ConteinerCarrosel #ConteinerSlides .Slides .ConteinerSlide .ConteinerTextCarrosel .BoxtextCarrosel span {
   letter-spacing: 0;
@@ -462,6 +464,9 @@
 }
 
 @media screen and (max-width: 760px) {
+  #SectionHome {
+    padding: 12em 0;
+  }
   #SectionHome .ConteinerTextHome {
     padding: 0 20px;
   }
@@ -477,13 +482,26 @@
   #SectionOpcoes .ConteinerOpcoes {
     flex-direction: column;
   }
+  #SectionOpcoes .ConteinerOpcoes .OpcaoItem {
+    margin-bottom: 1.5em;
+  }
 }
 @media screen and (max-width: 760px) {
+  #SectionCatalogo {
+    border: 1.5em solid #f6f8fa;
+  }
+  #SectionCatalogo .ConteinerCatalogo {
+    padding: 0 20px;
+  }
+  #SectionCatalogo .ConteinerCatalogo .ConteinerTitle {
+    margin: 0 10px;
+  }
   #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem {
     flex-direction: column;
   }
   #SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem .ItemCatalogo {
     width: 100%;
+    margin-bottom: 2em;
   }
 }
 @media screen and (max-width: 760px) {
@@ -494,9 +512,11 @@
   #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades {
     width: 100%;
     border-left: none;
+    padding: 2em 0;
   }
   #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades .BoxTextNovidades {
-    padding: 20px 0;
+    padding: 20px 10px;
+    margin: 3em;
   }
   #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades .BoxTextNovidades .BoxText {
     padding: 0 10px;
@@ -504,6 +524,7 @@
   }
   #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades .BoxTextNovidades .BoxText h2 {
     font-size: 1.5em;
+    padding-bottom: 0.5em;
   }
   #SectionNovidades .ConteinerNovidades .FileiraNovidade .Novidades .BoxTextNovidades .BoxText p {
     font-size: 0.9em;
@@ -537,7 +558,7 @@
     font-size: 1.5em;
   }
   #Carrosel #ConteinerCarrosel #ConteinerSlides .Slides .ConteinerSlide .ConteinerTextCarrosel .BoxtextCarrosel p {
-    font-size: 0.9em;
+    font-size: 1em;
     margin-bottom: 1em;
   }
 }/*# sourceMappingURL=StyleHome.module.css.map */

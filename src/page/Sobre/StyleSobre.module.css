@@ -131,7 +131,7 @@
   width: 50%;
 }
 #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText {
-  padding: 20px 40px;
+  padding: 0 40px;
 }
 #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText span {
   letter-spacing: 0;
@@ -150,7 +150,7 @@
   padding-bottom: 0.4em;
 }
 #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial .BoxDiferencial .ConteinerText .BoxText p {
-  font-size: 1.1em;
+  font-size: 1em;
   opacity: 0.8;
   margin-bottom: 0.5em;
 }
@@ -171,10 +171,11 @@
 
 #Chef {
   width: 100%;
+  padding: 3em 0;
 }
 #Chef #ConteinerChef {
   max-width: none;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 #Chef #ConteinerChef #BoxChef {
   display: flex;
@@ -187,7 +188,7 @@
   text-align: left;
   font-family: var(--fontTitle);
   color: #262626;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 #Chef #ConteinerChef #BoxChef .ConteinerText .BoxText span {
   letter-spacing: 0;
@@ -257,6 +258,9 @@
   }
 }
 @media screen and (max-width: 760px) {
+  #Diferenciais #ConteinerDiferenciais {
+    padding: 0 20px;
+  }
   #Diferenciais #ConteinerDiferenciais #BoxDiferenciais .Diferencial:nth-child(2) .BoxDiferencial {
     flex-direction: column;
   }
@@ -296,5 +300,16 @@
   }
   #Chef #ConteinerChef #BoxChef .ConteinerImagem {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #Qualidades #ConteinerQualidades {
+    padding: 1.5em 20px;
+  }
+  #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade {
+    flex-direction: column;
+  }
+  #Qualidades #ConteinerQualidades .BoxQualidades .ElementQualidade .BoxText {
+    text-align: center;
   }
 }/*# sourceMappingURL=StyleSobre.module.css.map */

@@ -155,10 +155,8 @@ flex-direction: column;
 gap: 2.5em;
 
 align-items: center;
-width: 100%;
 max-width: none;
 
-margin: 0 -40px;
 padding: 0 40px;
 
 
@@ -212,9 +210,14 @@ height: auto;
 text-align: center;
 font-family: var(--fontTitle);
 
+.BoxImg{
+
+padding: 0 40px;
+
 img{
-width: 70%;
+width: 100%;
 height: auto;
+}
 }
 
 .BoxText{
@@ -292,14 +295,14 @@ width: 50%;
 border-left: 6px solid white;
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
+background-position: center ;
 
 .BoxTextNovidades{
 
 text-align: left;
 font-family: var(--fontTitle);
 padding: 0 40px;
-margin: 3em;
+margin: 3em 0;
 
 .BoxText{
 padding: 0 20px;
@@ -317,16 +320,16 @@ margin-bottom: 0.4em;
 }
 
 h2{
-font-size: 3em;
+font-size: 2.5em;
 font-weight: bold;
 line-height: 1;
-padding-bottom: 0.4em;
+padding-bottom: 0.5em;
+
 }
 
 p{
-font-size: 1.1em;
-margin-bottom: 0.5em;
-
+font-size: 1em;
+margin-bottom: 0.4em;
 
 }
 
@@ -354,6 +357,7 @@ background-image:url("../../assets/image/cell-background-burger-left-2.jpg");
 }
 .Novidade3{
 background-image:url("../../assets/image/cell-background-burger-left-3.jpg");
+
 }
 .Novidade4{
 background-image:url("../../assets/image/cell-background-burger-right-1.jpg");
@@ -422,9 +426,9 @@ display: flex;
 min-width: 100%;
 transition: transform 0.5s ease-in-out;
 
+
 .Slides{
 
-margin: 0 auto;
 min-width: 100%;
 height: auto;
 padding: 0 auto;
@@ -437,24 +441,27 @@ justify-content: center;
 padding: 1em 20px;
 max-width: 100%;
 
+
 .ConteinerImgCarrosel{
 
-padding: 0 40px;
 width: 50%;
 
+.BoxImg{
+
+padding: 0 40px;
 
 img{
 width:100%;
 height: auto;
 }
 
+}
 
 }
 
 .ConteinerTextCarrosel{
 
 width: 60%;
-padding: 0 40px;
 margin: 0 -15px;
 text-align: left;
 font-family: var(--fontTitle);
@@ -463,6 +470,7 @@ font-family: var(--fontTitle);
 
 display: block;
 clear: both;
+padding: 0 10px;
 
 span{
 letter-spacing: 0;
@@ -630,6 +638,8 @@ cursor: pointer;
 
 #SectionHome{
 
+padding: 12em 0;
+
 .ConteinerTextHome{
 
 padding: 0 20px;
@@ -662,6 +672,13 @@ font-size: 3em;
 
 .ConteinerOpcoes{
 flex-direction: column;
+
+.OpcaoItem{
+
+margin-bottom: 1.5em;
+
+}
+
 }
 }
 
@@ -670,13 +687,29 @@ flex-direction: column;
 //catalogo
 @media screen and (max-width:760px ) {
 
-#SectionCatalogo .ConteinerCatalogo .ConteinerProduto .fileiraItem{
+#SectionCatalogo{
+    
+border: 1.5em solid #f6f8fa;
+
+.ConteinerCatalogo{
+
+padding: 0 20px;
+    
+.ConteinerTitle{
+margin: 0 10px;
+}
+
+.ConteinerProduto .fileiraItem{
     
 flex-direction: column;
 
 .ItemCatalogo{
 
 width: 100%;
+margin-bottom: 2em;
+
+}
+}
 
 }
 
@@ -695,10 +728,12 @@ border-bottom: none;
 
 width: 100%;
 border-left: none;
+padding: 2em 0;
 
 .BoxTextNovidades{
 
-padding: 20px 0;
+padding: 20px 10px;
+margin: 3em;
 
 .BoxText{
 padding: 0 10px;
@@ -706,6 +741,7 @@ margin: 0 -20px;
 
 h2{
 font-size: 1.5em;
+padding-bottom: 0.5em;
 }
 
 p{
@@ -765,7 +801,7 @@ font-size: 1.5em;
 }
 
 p{
-font-size: 0.9em;
+font-size: 1em;
 margin-bottom: 1em;
 }
 

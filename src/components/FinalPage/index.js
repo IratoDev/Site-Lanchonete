@@ -78,10 +78,6 @@ return(
 
 <div id={StyleFinalPage.FooterDireitos}>
 
-<p>
-Copyright © 2024 IratoDev.com Todos os direitos reservados.   
-</p>
-
 <div className={StyleFinalPage.ConteinerFooter}>
 
 <Link className={StyleFinalPage.LinkFooter}>Home</Link> 
@@ -90,6 +86,10 @@ Copyright © 2024 IratoDev.com Todos os direitos reservados.
 <Link className={StyleFinalPage.LinkFooter}>contato</Link> 
 
 </div>
+
+<p>
+Copyright © 2024 IratoDev.com Todos os direitos reservados.   
+</p>
 
 </div>
 
